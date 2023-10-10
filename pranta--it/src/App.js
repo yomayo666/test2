@@ -14,7 +14,7 @@ function App() {
       <Buisnes/>
       <UsWorks/>
       <СalculateЕheСost/>
-      <Blog/>
+       <Blog/>
     </div>
   );
 }
