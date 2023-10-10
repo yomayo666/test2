@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Neue Machina';
+  src:   url('../src/assets/fonts/Neue\ Machina\ -\ Free\ for\ Personal\ Use/NeueMachina-Regular.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RF Dewi Expanded';
+  src:   url('../src/assets/fonts/RFDewiExtended-Semibold.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

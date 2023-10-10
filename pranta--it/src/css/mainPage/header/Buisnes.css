@@ -1,0 +1,133 @@
+.for-buisnes {
+  position: absolute;
+  top: 1400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 551.348px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.for-buisnes button {
+  position: absolute;
+  padding: 28px 34.667px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.667px;
+  border-radius: 21.333px;
+  border-radius: 21.333px;
+background: rgba(28, 30, 42, 0.50);
+backdrop-filter: blur(19.666664123535156px);
+color: var(--ffffff, #FFF);
+font-family: Neue Machina;
+font-size: 21.333px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+opacity: 0.6;
+}
+
+
+.selling-goods {
+  top: 0%;
+  left: 40%;
+}
+
+.сoffee-shops {
+  left: 70%;
+  top: 20%;
+}
+
+.franchises {
+  left: 10%;
+  top: 10%;
+}
+
+.repair-and-construction {
+  left: 50%;
+  top: 50%;
+}
+
+.real-estate {
+  left: 0%;
+  top: 80%;
+}
+
+.infobusiness {
+  left: 80%;
+  top: 60%;
+}
+
+.cars {
+  left: 65%;
+  top: 80%;
+}
+
+.marketing-agencies {
+  left: 30%;
+  top: 25%;
+}
+
+.restaurants-and-cafes {
+  left: 20%;
+  top: 60%;
+}
+.for-buisness-h2{
+  position: absolute;
+  color: var(--ffffff, #FFF);
+text-align: center;
+font-family: RF Dewi Expanded;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 88px */
+letter-spacing: 1.6px;
+}
+.for-buisness-h2 span{
+  color: var(--40-b-6-b-7, #40B6B7);
+  font-family: RF Dewi Expanded;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 1.6px;
+
+}
+.eleps{
+  top: 20%;
+  position: absolute;
+  left: 30%;
+  transform: translateX(-50%);
+  width: 433.333px;
+  height: 433.333px;
+  transform: rotate(45.313deg);
+  flex-shrink: 0;
+  z-index: -1;
+}
+.eleps1{
+  position: absolute;
+  width: 407.637px;
+  height: 311.883px;
+  transform: rotate(-15.697deg);
+  flex-shrink: 0;
+  border-radius: 407.637px;
+  opacity: 0.3;
+  background: #40B6B7;
+  mix-blend-mode: screen;
+  filter: blur(82.61548614501953px);
+}
+.eleps2{
+  position: absolute;
+  width: 311.883px;
+height: 407.637px;
+transform: rotate(15.303deg);
+flex-shrink: 0;
+border-radius: 407.637px;
+opacity: 0.3;
+background: #33229A;
+mix-blend-mode: screen;
+filter: blur(82.61548614501953px);
+}

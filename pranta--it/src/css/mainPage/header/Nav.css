@@ -1,0 +1,63 @@
+.main-nav {
+    display: block;
+    width: 854px;
+    height: 44.67px;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  
+  .main-nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  ul li{
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 99;
+  }
+  ul li a{
+    
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 12px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .img-logo {
+    width: 153.334px;
+    height: 44.667px;
+    flex-shrink: 0;
+  }
+  
+  .start-project {
+    border-radius: 13.333px;
+    border: 1.333px solid var(--40-b-6-b-7, #40B6B7);
+    background: rgba(64, 182, 183, 0.10);
+    backdrop-filter: blur(3.6666667461395264px);
+    text-align: center;
+    display: flex; /* Используем flex-контейнер */
+    align-items: center; /* Выравнивание по вертикали */
+  }
+  
+  .custom-link {
+    padding: 16px;
+    color: var(--ffffff, #FFF);
+    font-family: RF Dewi Expanded;
+    font-size: 9.333px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 9.333px */
+    text-transform: uppercase;
+  }

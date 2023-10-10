@@ -1,0 +1,81 @@
+.header{
+    width: 1280px;
+    height: 666.667px;
+    background-image: url("../../../assets/mainPage/headerIMG.png");
+}
+h1{
+    color: var(--ffffff, #FFF);
+text-align: center;
+font-family: RF Dewi Expanded;
+font-size: 53.333px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 58.667px */
+letter-spacing: 1.067px;
+z-index: 99;
+}
+h1 span{
+    background: linear-gradient(91deg, #40B6B7 15.54%, #6FE1E2 60.08%, #40B6B7 106.51%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: RF Dewi Expanded;
+font-size: 53.333px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%;
+letter-spacing: 1.067px;
+z-index: 1;
+}
+.header-container{
+    margin-top: 120px;
+    width: 775.333px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-header {
+    margin-top: 30.67px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Neue Machina;
+    font-size: 17.333px;
+    font-style: normal;
+    /* Удалите или измените следующее свойство opacity */
+    opacity: 1; /* Удалите или измените это свойство */
+    z-index: 1999;
+  }
+.eleps3{
+    top: -35%;
+    position: relative;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 433.333px;
+    height: 433.333px;
+    transform: rotate(45.313deg);
+    flex-shrink: 0;
+    z-index: 0;
+  }
+  .eleps4{
+    position: absolute;
+    width: 407.637px;
+    height: 311.883px;
+    transform: rotate(-15.697deg);
+    flex-shrink: 0;
+    border-radius: 407.637px;
+    opacity: 0.3;
+    background: #40B6B7;
+    mix-blend-mode: screen;
+    filter: blur(82.61548614501953px);
+  }
+  .eleps5{
+    position: absolute;
+    width: 311.883px;
+  height: 407.637px;
+  transform: rotate(15.303deg);
+  flex-shrink: 0;
+  border-radius: 407.637px;
+  opacity: 0.3;
+  background: #33229A;
+  mix-blend-mode: screen;
+  filter: blur(82.61548614501953px);
+  }

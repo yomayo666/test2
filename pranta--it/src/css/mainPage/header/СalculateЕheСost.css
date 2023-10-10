@@ -1,0 +1,217 @@
+.price-container{
+    margin-top: 200px;
+    width: 1280px;
+    height: 1062.667px;
+    border-radius: 48px 48px 0px 0px;
+    background: #12141D;
+}
+.us-price{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    width: 853.333px;
+    height: 854px;
+}
+.header-price-div h3{
+    width: 600px;
+    color: var(--ffffff, #FFF);
+    font-family: RF Dewi Expanded;
+    font-size: 34.667px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 34.667px */
+    letter-spacing: 0.693px;
+}
+.header-price-div p{
+    padding-top: 24px;
+    width: 413.333px;
+    color: var(--ffffff, #FFF);
+    font-family: Neue Machina;
+    font-size: 13.333px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 17.333px */
+    opacity: 0.8;
+}
+.development-price-div, .design-price-div, .motion-price-div{
+    position: relative;
+    display: flex;
+    width: 849.333px;
+    height: 66.667px;
+
+}
+.us-price img{
+    width: 33.333px;
+    height: 33.333px;
+}
+.us-price h4{
+    padding-left: 5px;
+    color: var(--ffffff, #FFF);
+    font-family: Neue Machina;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 28px */
+}
+.us-price p{
+    width: 450px;
+    color: var(--ffffff, #FFF);
+    font-family: Neue Machina;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 15.6px */
+    opacity: 0.8;
+}
+
+.development-price-div p{
+    padding-left: 80px;
+}
+.parent-container-checkbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.custom-switch {
+    display: inline-block;
+    position: relative;
+    width: 57.333px;
+    height: 30.667px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  
+  .custom-switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #181A25;
+    border-radius: 15.3333px;
+    transition: 0.3s;
+  }
+  
+  .slider::before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 2px;
+    top: 2px;
+    background-color: #40B6B7;
+    border-radius: 50%;
+    transition: 0.3s;
+    transform: translateX(0);
+  }
+  
+  .custom-switch input:checked + .slider {
+    background-color: #40B6B7;
+  }
+  
+  .custom-switch input:checked + .slider::before {
+    background-color: white; /* Изменение цвета на белый при активации */
+    transform: translateX(100%);
+  }
+  .design-price-div p{
+    padding-left: 140px;
+  }
+  .check-price-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 128px;
+  }
+  .check-price-container div{
+    position: relative;
+    width: 266.667px;
+    height: 128px;
+    border-radius: 28px;
+    background: #181A25;
+  }
+  .check-price-container div {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .check-price-container div h5 {
+    color: var(--ffffff, #FFF);
+font-family: Neue Machina;
+font-size: 17.333px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 17.333px */
+  }
+  .check-price-container div p {
+    opacity: 0.6;
+    color: var(--ffffff, #FFF);
+font-family: Neue Machina;
+font-size: 10.667px;
+font-style: normal;
+font-weight: 300;
+line-height: 120%; /* 12.8px */
+opacity: 0.8;
+  }
+  .check-price-container div label {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    padding-left: 8px;
+    color: var(--ffffff, #FFF);
+font-family: Neue Machina;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 12px */
+opacity: 0.6;
+  }
+  .check-price-container input{
+    position: absolute;
+    bottom: 20px;
+  }
+  .check-price-p1{
+    max-width: 200px;
+  }
+  .check-price-p2{
+    max-width: 187.333px;
+  }
+  .check-price-p3{
+    max-width: 200px;
+  }
+  .motion-price-div p{
+    padding-left: 144.67px;
+    width: 450px
+  }
+  .container-for-button{
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+  }
+  .need-consultation{
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 24px 41.333px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 18.667px;
+    background: var(--40-b-6-b-7, #40B6B7);
+    color: var(--ffffff, #FFF);
+font-family: RoadRadio;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 20.8px */
+  }
+  .need-consultation-mark{
+    max-height: 16px;
+    z-index: 1000;
+  }
+  .price-container hr {
+    /* Ваши стили для <hr> элементов */
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 1px solid #D9D9D9; /* Добавить стиль вертикальной линии */
+  }

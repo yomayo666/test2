@@ -1,0 +1,126 @@
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    position: fixed; /* Начальное состояние: абсолютное позиционирование */
+    top: 500px; /* Фиксировать сверху */
+    left: 0;
+    right: 0;
+    z-index: 999;
+    opacity: 0.1; /* Изначальная прозрачность (полностью видимый) */
+    transition: opacity 0.5s ease, top 0.5s ease; /* Плавное изменение прозрачности и положения top */
+  }
+  /* Стили для .main-container в состоянии not-fixed */
+  .main-container.not-fixed {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    position: absolute; /* Обычное абсолютное позиционирование (не фиксирован) */
+    top: calc(500px + 100px); /* При прокрутке вниз, смещаем .main-container вниз на 100px */
+    opacity: 1; /* Прозрачность, когда не фиксирован */
+    /* Другие стили по вашему выбору */
+  }
+
+.development-div{
+    display: flex;
+    align-self: center
+}
+.box-div{
+    display: flex;
+    align-self: center
+}
+.player-div{
+    display: flex;
+    align-self: center
+}
+.development-article {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 266.667px;
+    height: 321.333px;
+    border-radius: 28px;
+    background: rgba(28, 30, 42, 0.50);
+    backdrop-filter: blur(16.666669845581055px);
+    z-index: 2;
+}
+.design-article {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 66px;
+    width: 266.667px;
+    height: 321.333px;
+    border-radius: 28px;
+    background: rgba(28, 30, 42, 0.50);
+    backdrop-filter: blur(16.666669845581055px);
+    z-index: 2;
+}
+.creative-article {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 266.667px;
+    height: 321.333px;
+    border-radius: 28px;
+    background: rgba(28, 30, 42, 0.50);
+    backdrop-filter: blur(16.666669845581055px);
+    z-index: 2;
+}
+
+.main-container * h3{
+    padding-top: 5px;
+    padding-left: 10px;
+    color: var(--ffffff, #FFF);
+font-family: Neue Machina;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 28px */
+}
+.main-container * h4{
+    color: var(--ffffff, #FFF);
+    font-family: Neue Machina;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+}
+.main-container * p{
+    color: var(--ffffff, #FFF);
+font-family: Neue Machina;
+font-size: 10.667px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 13.867px */
+opacity: 0.8;
+}
+.main-container * hr{
+    width: 226.667px;
+    height: 0.667px;
+    color: rgba(255, 255, 255, 0.20);
+}
+.development-article, .design-article, .creative-article {
+    margin-right: 25px; /* Отступ справа */
+}
+
+.development-article {
+    margin-left: 25px; /* Отступ слева для первого элемента */
+}
+  
+.services {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0; /* Начальное положение .services */
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: RF Dewi Expanded;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 1.6px;
+  }
+  
+  
+  

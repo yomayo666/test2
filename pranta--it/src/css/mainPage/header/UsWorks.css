@@ -1,0 +1,178 @@
+
+
+.us-works{
+    display: block;
+    position: static;
+
+    top: auto;
+    margin-top: 1200px;
+    width: 853.33px;
+    height: 1373.33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-us-works.fixed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0; /* Установите нужное значение z-index для title-us-works.not-fixed */
+  }
+.title-us-works{
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: RF Dewi Expanded;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 88px */
+    letter-spacing: 1.6px;
+}
+.firs-div{
+    margin-top: 27px;
+}
+.firs-div, .secons-div, .third-div{
+    display: flex;
+    justify-content: space-between;
+    height: 440px;
+    width: 853.33px;
+    margin-bottom: 27px;
+}
+.cont-1{
+    padding-left: 33.33px;
+    padding-top: 33.33px;
+    width: 440px;
+    height: 440px;
+    z-index: 99;
+    border-radius: 28px;
+    background: #08213C;
+    backdrop-filter: blur(19.666667938232422px);
+    background-image: url("../../../assets/mainPage/mark.png");
+    color: #FFF;
+}
+.us-works * h3{
+    color: #FFF;
+font-family: RF Dewi Expanded;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 30.8px */
+text-transform: uppercase;
+}
+.us-works * p{
+    width: 303.333px;
+    color: #FFF;
+font-family: Neue Machina;
+font-size: 18.667px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%;
+
+}
+.us-works * button{
+    position: absolute;
+    bottom: 33px;
+    padding: 14.667px 17.333px;
+justify-content: center;
+align-items: center;
+gap: 6.667px;
+border-radius: 66.667px;
+background: linear-gradient(107deg, rgba(255, 255, 255, 0.20) -13.6%, rgba(255, 255, 255, 0.06) 109.57%);
+backdrop-filter: blur(14.666667938232422px);
+color: #FFF;
+font-family: RF Dewi Expanded;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 80%; /* 9.6px */
+text-transform: uppercase;
+}
+.cont-2{
+    padding-left: 33.33px;
+    padding-top: 33.33px;
+    width: 386.667px;
+    height: 440px;
+    border-radius: 28px;
+background: black;
+backdrop-filter: blur(19.666667938232422px);;
+    background-image: url("../../../assets/mainPage/Studio Session-004-4.png");
+}
+.cont-3{
+    padding-left: 33.33px;
+    padding-top: 33.33px;
+    width: 386.667px;
+    height: 440px;
+    border-radius: 28px;
+    background: rgba(28, 30, 42, 0.50);
+    backdrop-filter: blur(19.666667938232422px);
+    background-image: url("../../../assets/mainPage/чай-455.png");
+}
+.cont-3-buttons button:nth-child(2) {
+    margin-left: 100px;
+}
+.cont-4{
+    padding-left: 33.33px;
+    padding-top: 33.33px;
+    width: 440px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 28px;
+background: #E5271F;
+backdrop-filter: blur(19.666667938232422px);
+    background-image: url("../../../assets/mainPage/Mask group.png");
+}
+.cont-4-buttons button:nth-child(3) {
+    margin-left: 85px;
+}
+.cont-4-buttons button:nth-child(1) {
+    margin-bottom: 50px;
+}
+.cont-5{
+    padding-left: 33.33px;
+    padding-top: 33.33px;
+    width: 440px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 28px;
+background: #E5271F;
+backdrop-filter: blur(19.666667938232422px);
+    background-image: url("../../../assets/mainPage/Mask group.png");
+}
+.cont-5-buttons button:nth-child(3) {
+    margin-left: 85px;
+}
+.cont-5-buttons button:nth-child(1) {
+    margin-bottom: 50px;
+}
+.cont-6{
+    padding-left: 33.33px;
+    padding-top: 33.33px;
+    width: 386.667px;
+    height: 440px;
+    border-radius: 28px;
+background: #E5271F;
+backdrop-filter: blur(19.666667938232422px);
+    background-image: url("../../../assets/mainPage/Studio Session-004-4.png");
+}
+
+.cont {
+    transition: transform 0.5s ease; /* Плавный переход размера на 0.3 секунды с эффектом ease */
+    z-index: 1; /* Устанавливаем начальное значение z-index */
+  }
+  
+  .cont:hover {
+    transform: scale(1.20); /* Увеличиваем размер на 15% */
+    z-index: 2; /* Увеличиваем z-index при наведении мыши */
+  }
+  
+  .cont:hover p{
+    margin-left: -5%;
+    transform: scale(0.87); /* Уменьшаем текст на 15% (1 / 1.15) */
+
+  }
+  .cont:hover h3{
+
+    margin-left: -7%;
+    transform: scale(0.87); /* Уменьшаем текст на 15% (1 / 1.15) */
+
+  }
